@@ -1,0 +1,23 @@
+{
+  "name": "mi-proyecto",
+  "version": "1.0.0",
+  "description": "Backend for receiving WhatsApp messages",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js", 
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "puppeteer": "^22.6.5",
+    "sequelize": "^6.37.3",
+    "socket.io": "^4.7.5",
+    "twilio": "^5.0.4",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
